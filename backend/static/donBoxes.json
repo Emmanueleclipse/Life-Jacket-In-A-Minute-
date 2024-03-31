@@ -1,0 +1,22 @@
+[
+  {
+    "locationId": 1,
+    "locationName": "Syntagma",
+    "numberDonBoxes": 20
+  },
+  {
+    "locationId": 2,
+    "locationName": "Kaisariani",
+    "numberDonBoxes": 15
+  },
+  {
+    "locationId": 3,
+    "locationName": "Anw Pathsia",
+    "numberDonBoxes": 12
+  },
+  {
+    "locationId": 4,
+    "locationName": "Marousi",
+    "numberDonBoxes": 18
+  }
+]
