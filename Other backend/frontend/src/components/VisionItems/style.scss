@@ -1,0 +1,64 @@
+/* styles.css */
+.container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+  
+  .input-group button {
+    padding: 5px 10px;
+    background-color: #36985B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .item:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .item-description {
+    display: none;
+  }
+  
+  .item:hover .item-description {
+    display: block;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+
+  }
+  

@@ -1,0 +1,152 @@
+.ant-modal-body {
+  padding: 0;
+}
+
+.vision-modal {
+  height: 70vh;
+
+  .pop-up-message {
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500px;
+    z-index: 50;
+    position: absolute;
+    bottom: 15vh;
+    left: 15.5vw;
+    transition: 1s;
+  }
+
+  .header {
+    height: 8vh;
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    position: absolute;
+    top: 7vh;
+
+    .loading {
+      position: absolute;
+      right: 0;
+      .anticon {
+        color: #A643F4;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  video {
+    object-fit: cover;
+  }
+
+  .canvas-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15vh;
+    left: 8vw;
+    width: 25vw;
+    height: 25vw;
+    z-index: 8;
+    overflow: hidden;
+    text-align: center;
+
+    canvas {
+      width: 44.44vw;
+      height: 25vw;
+    }
+  }
+
+  .camera {
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    width: 25vw;
+    height: 25vw;
+    margin-right: 2vw;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .screenshot {
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    width: 25vw;
+    height: 25vw;
+    z-index: 6;
+    object-fit: cover;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .item-list {
+    top: 15vh;
+    position: absolute;
+    left: 37vw;
+    display: inline-block;
+    width: 25vw;
+    height: 25vw;
+
+    .line {
+      width: 100%;
+      height: 3px;
+      background-color: #A643F4;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+
+      .anticon {
+        transition: .2s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      .item-name {
+        margin-left: 10px;
+      }
+
+      .item-quantity {
+        position: absolute;
+        right: 0;
+      }
+    }
+
+    .confirm-button {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 20px;
+      border-radius: 30px;
+      position: absolute;
+      bottom: 0;
+      width: 90%;
+      margin-left: 5%;
+      text-align: center;
+      height: 50px;
+      background: #36985B;
+      transition: .2s;
+
+      &:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+      }
+    }
+  }
+}
